@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <h1>Shopping List</h1>
+    <ul>
+    <% todos.forEach( el => { %>
+            <li class='todoItem' data-id='<%=el._id%>'>
+                <input type="checkbox">
+                <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.todo %></span>
+                <!-- <input type="date"> -->
+                <span class='del'> Delete </span>
+            </li>
+    <% }) %>    
+    </ul>
+
+    <h2><%= user.userName %> has <%= left %> things left to buy.</h2>
+
+    <form action="/todos/createTodo" method='POST'>
+        <input type="text" placeholder="Enter Item To Buy" name='todoItem'>
+        <input type="submit">
+    </form>
+    
+
+    <a href="/logout"><button>Logout</button></a>
+    </div>
+    
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+  background: grey;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+div {
+  width: 500px;
+  background: white;
+  margin: auto;
+  margin-top: 100px;
+  height: 300px;
+  padding: 2em;
+  font-style: oblique;
+  border-radius: 2pc;
+  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  background-color: orange;
+}
+h1,
+h2 {
+  text-align: center;
+  color: red;
+}
+li {
+  list-style: none;
+}
+form {
+  text-align: center;
+}
+a button {
+  font-size: large;
+  margin-top: 50px;
+  margin-left: 40%;
+}
+input {
+  font-style: oblique;
+}
