@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/login.css" />
   </head>
   <body>
-    <div>
+    <section>
       <h1>Please Sign Up</h1>
       <% if (locals.messages.errors) { %> <% messages.errors.forEach( el => { %>
       <div class="alert alert-danger"><%= el.msg %></div>
@@ -24,6 +24,6 @@
         />
         <input type="submit" />
       </form>
-    </div>
+    </section>
   </body>
 </html>
