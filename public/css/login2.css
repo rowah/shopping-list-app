@@ -38,3 +38,13 @@ a button {
 input {
   font-style: oblique;
 }
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 15rem;
+  margin: auto;
+  margin-top: 3em;
+  padding: 4px;
+}

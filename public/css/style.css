@@ -29,6 +29,11 @@ li {
 }
 form {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  margin: auto;
 }
 a button {
   font-size: large;
@@ -37,4 +42,7 @@ a button {
 }
 input {
   font-style: oblique;
+}
+.gweno {
+  margin-top: 1em;
 }

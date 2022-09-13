@@ -37,4 +37,12 @@ a button {
 }
 input {
   font-style: oblique;
+  width: 15rem;
+  margin: auto;
+  margin-top: 1em;
+  padding: 4px;
+}
+form {
+  display: flex;
+  flex-direction: column;
 }
