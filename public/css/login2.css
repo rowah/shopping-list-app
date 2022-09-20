@@ -48,3 +48,8 @@ input {
   margin-top: 3em;
   padding: 4px;
 }
+@media all and (max-width: 420px) {
+  div {
+    width: 80%;
+  }
+}
